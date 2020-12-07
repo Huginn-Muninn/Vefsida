@@ -13,8 +13,14 @@
         <h2>Home</h2>
     </header>
     <div id="bodywrapper">
-    <!--Setja webgl build hér fyrir neðan-->
-    <iframe src="" style="border:0px #000000 none;" name="webgl" scrolling="no" frameborder="1" marginheight="px" marginwidth="320px" height="590px" width="880px"></iframe>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1223px; height: 424px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">KingsQuest</div>
+      </div>
+    </div>
 </div>
 
     <footer>
